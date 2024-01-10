@@ -1,4 +1,4 @@
-
+'use strict';
 let cep = document.getElementById('cep')
 
 /* const eNumero = (num) => /^[0-9]+$/.test(cep); */
