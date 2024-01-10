@@ -4,48 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
-        <form action="">
+        <form action="" id="formul"  autocomplete="off">
             <fieldset class="container">
                 <legend>Cadastro</legend>
-                <fieldset>
-                    <label for="nome">Nome</label>
-                    <input id="nome" type="text">
-                </fieldset>
-                <fieldset>
-                    <label for="email">Email</label>
-                    <input type="email" id="email">
-                </fieldset>
-                <fieldset>
-                    <label for="cep">Cep</label>
-                    <input type="number" id="cep">
-                </fieldset>
-                <fieldset>
-                    <label for="endereco">Endereço</label>
-                    <input type="text" id="endereco">
-                </fieldset>
-                <fieldset>
-                    <label for="numero">Número</label>
-                    <input type="number" id="numero">
-                </fieldset>
-                <fieldset>
-                    <label for="bairro">Bairro</label>
-                    <input type="text" id="bairro">
-                </fieldset>
-                <fieldset>
-                    <label for="cid">Cidade</label>
-                    <input type="text" id="cid">
-                </fieldset>
-                <fieldset>
-                    <label for="UF">Estado</label>
-                    <input type="text" id="UF">
-                </fieldset>
-                <input type="button" value="Salvar">
+                <div>
+                    <fieldset class="box">
+                        <input id="nome"  type="text">
+                        <label for="nome" >Nome</label>
+                        <span></span>
+                    </fieldset>
+                    <fieldset class="box">
+                        <input type="email"  id="email">
+                        <label for="email" >Email</label>
+                        <span></span>
+                    </fieldset>
+                </div>
+                <div>
+                    <fieldset class="box">
+                        <input type="number" id="cep">
+                        <label for="cep">Cep</label>
+                        <span></span>
+                    </fieldset>
+                    <fieldset class="box">
+                        <input type="text" id="endereco">
+                        <label for="endereco">Endereço</label>
+                        <span></span>
+                    </fieldset>
+                    <fieldset class="box">
+                        <input type="number" id="numero">
+                        <label for="numero">Número</label>
+                        <span></span>
+                    </fieldset>
+                </div>
+                <div>
+                    <fieldset class="box">
+                        <input type="text" id="bairro">
+                        <label for="bairro">Bairro</label>
+                        <span></span>
+                    </fieldset>
+                    <fieldset class="box">
+                        <input type="text" id="cid">
+                        <label for="cid">Cidade</label>
+                        <span></span>
+                    </fieldset>
+                    <fieldset class="box">
+                        <input type="text" id="UF">
+                        <label for="UF">Estado</label>
+                        <span></span>
+                    </fieldset>
+                </div>
+                
             </fieldset>
+            <button>Salvar</button>
         </form>
     </main>
 <script src="script.js"></script>
+<script src="efeito.js"></script>
 </body>
 </html>
