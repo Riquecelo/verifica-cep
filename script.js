@@ -17,7 +17,7 @@ const preencherFormulario=(endereco)=>{
 cep.addEventListener('focusout', async()=>{
     let vcep = cep.value;
     if(validaCep(vcep)){
-        let url = `http://viacep.com.br/ws/${vcep}/json/`;
+        let url = `https://viacep.com.br/ws/${vcep}/json/`;
         /* let dados = await fetch(url)
         let endereco = await dados.json()
         preencherFormulario(endereco)
